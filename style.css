@@ -14,11 +14,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #1a2c84, #0b00a8);
+    background: linear-gradient(45deg, #F8F9F9, #F8F9F9);
 }
 
 .calculator{
-    border: 1px solid #ffffff;
+    border: 1px solid #131010;
     padding: 20px;
     border-radius: 16px;
     background: transparent;
@@ -36,11 +36,11 @@ input{
     font-size: 40px;
     text-align: right;
     cursor: pointer;
-    color: #ffffff;
+    color: #1c1717;
 }
 
 input::placeholder{
-    color: #ffffff;
+    color: #0d0808;
 }
 
 button{
@@ -48,15 +48,16 @@ button{
     width: 60px;
     height: 60px;
     margin: 10px;
+    background-color: #adadad;
     border-radius: 10%;
-    color: #3188bf;
+    color: #000000;
     font-size: 20px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    box-shadow: -8px -8px 15px rgb(130, 130, 130, 0.1);
     cursor: pointer;
 }
 
 .equalBtn{
-    background-color: #08d92b;
+    background-color: #29a36a;
     border-radius: 1.5%;
     width: 340px;
 }
